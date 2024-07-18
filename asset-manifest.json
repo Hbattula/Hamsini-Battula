@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Hamsini-Battula/static/css/main.f2924b0f.css",
-    "main.js": "/Hamsini-Battula/static/js/main.7f4a06a6.js",
+    "main.js": "/Hamsini-Battula/static/js/main.61158a57.js",
     "static/js/787.fb771931.chunk.js": "/Hamsini-Battula/static/js/787.fb771931.chunk.js",
     "static/media/project3.jpg": "/Hamsini-Battula/static/media/project3.a293d2f8716336c46576.jpg",
     "static/media/logoish.png": "/Hamsini-Battula/static/media/logoish.0b85d33c20230b965b84.png",
@@ -20,11 +20,11 @@
     "static/media/nav-icon1.svg": "/Hamsini-Battula/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/Hamsini-Battula/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.f2924b0f.css.map": "/Hamsini-Battula/static/css/main.f2924b0f.css.map",
-    "main.7f4a06a6.js.map": "/Hamsini-Battula/static/js/main.7f4a06a6.js.map",
+    "main.61158a57.js.map": "/Hamsini-Battula/static/js/main.61158a57.js.map",
     "787.fb771931.chunk.js.map": "/Hamsini-Battula/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f2924b0f.css",
-    "static/js/main.7f4a06a6.js"
+    "static/js/main.61158a57.js"
   ]
 }
