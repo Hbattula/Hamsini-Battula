@@ -1,0 +1,138 @@
+/* Hobbies.css */
+
+.hobbies {
+  padding: 50px 0;
+  background: linear-gradient(90.21deg, #dd7cb6 -5.91%, #73d3e4 111.58%);
+}
+
+.section-title {
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative; /* Add position relative for pseudo elements */
+}
+
+.section-title::before,
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px; /* Adjust position as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 3px;
+  background-color: #ffffff;
+}
+
+.section-title::after {
+  bottom: -20px; /* Adjust for second line */
+}
+
+.hobbies h1 {
+  text-align: center;
+}
+
+.hobbies p {
+  color: #070707;
+  margin-bottom: 30px;
+  font-weight: 500;
+  text-align: center;
+  font-size: 18px;
+}
+
+.hobby-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  color: #000000;
+  margin-bottom: 30px; /* Add margin bottom for space between cards */
+  position: relative; /* Position relative for pseudo elements */
+  overflow: hidden; /* Hide overflow for pseudo elements */
+}
+
+.hobby-card::before {
+  content: '';
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1); 
+  transition: top 0.3s ease-out; 
+}
+
+.hobby-card:hover::before {
+  top: 0; 
+}
+
+.hobby-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+.hobby-icon {
+  font-size: 3rem;
+  color: #73d3e4;
+  margin-bottom: 15px;
+}
+
+.typing-text {
+  display: inline-block;
+  overflow-wrap: break-word; 
+  white-space: normal; 
+  letter-spacing: 2px; 
+  font-weight:500;
+  animation: typing 2s steps(30, end), blink-caret 0.5s step-end infinite alternate;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #ffffff; 
+  }
+}
+
+.lottie-animation {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .hobbies {
+    padding: 30px 0;
+  }
+
+  .hobby-card {
+    padding: 20px; 
+  }
+
+  .typing-text {
+    font-size: 16px; 
+  }
+}
+
+.nav-pills .nav-link.active {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.nav-link {
+  color: #ffffff;
+  font-weight:500;
+}

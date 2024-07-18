@@ -1,0 +1,19 @@
+/* Banner.css */
+.lottie-animation {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .lottie-animation {
+      max-width: 400px; 
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .lottie-animation {
+      max-width: 300px;
+    }
+  }
+  
