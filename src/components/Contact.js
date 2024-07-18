@@ -28,7 +28,7 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
-    let response = await fetch("http://localhost:5000/contact", {
+    let response = await fetch("https://hamsini-battula.onrender.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
@@ -62,7 +62,7 @@ export const Contact = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <h2>Touch Base</h2>
+                  <h2> Connect with me </h2>
                   <form onSubmit={handleSubmit}>
                     <Row>
                       <Col xs={12} sm={6} className="px-1">
